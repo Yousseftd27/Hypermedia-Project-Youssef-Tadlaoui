@@ -1,0 +1,123 @@
+:root {
+    --accent: #00775A;
+    --text: #000000;
+	--card: #FFFFFF;
+    --secondaryText: #9A9EA5;
+    --background: #FAFAFA;
+    --border: #E2E3E5;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    margin: 0;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1, h2, h3, p, ul {
+    margin-bottom: 10px;
+}
+
+h1 {
+	font-family: Inria Sans, sans-serif;
+}
+
+h2 {
+	font-family: Inria Sans, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    background-color: var(--background);
+    padding: 15px;
+    border-bottom: 1px solid var(--border);
+}
+
+#header .contactlink {
+    float: right;
+}
+
+#intro {
+    margin: 25px 0;
+}
+
+#intro img {
+    width: 120px;
+    height: 140px;
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+#intro div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card {
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.card h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.card p, .card li {
+    font-size: 14px;
+    color: var(--secondaryText);
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.project {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin: 0 20px 20px 0;
+}
+
+.project h3 {
+    text-align: center;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-right: 3%;
+}
+
+.content {
+    margin-bottom: 25px;
+}
+
+#contact {
+    border-top: 1px solid var(--border);
+    margin-top: 30px;
+    padding: 10px 0 50px 0;
+}
